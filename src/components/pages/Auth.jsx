@@ -3,7 +3,7 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Login from "../Login";
 import Signup from "../Signup";
-import { UrlState } from "../Context.jsx";
+import { UrlState } from "@/Context";
 
 const Auth = () => {
   const [searchParams] = useSearchParams();

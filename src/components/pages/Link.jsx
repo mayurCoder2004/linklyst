@@ -1,4 +1,4 @@
-import { UrlState } from "../Context.jsx";
+import { UrlState } from "@/Context";
 import { getClicksForUrl } from "@/db/apiClicks";
 import { deleteUrls, getUrl } from "@/db/apiUrls";
 import useFetch from "@/hooks/use-fetch";

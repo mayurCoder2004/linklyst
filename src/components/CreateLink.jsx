@@ -1,4 +1,4 @@
-import { UrlState } from "../Context.jsx";
+import { UrlState } from "@/Context";
 import React, { useEffect, useRef, useState } from "react";
 import { QRCode } from "react-qrcode-logo";
 import { useNavigate, useSearchParams } from "react-router-dom";
