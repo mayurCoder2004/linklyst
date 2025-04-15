@@ -11,7 +11,7 @@ import { Input } from "../ui/input";
 import { Filter } from "lucide-react";
 import useFetch from "@/hooks/use-fetch";
 import { getUrls } from "@/db/apiUrls";
-import { UrlState } from "@/Context";
+import { UrlState } from "../Context.jsx";
 import { getClicksForUrls } from "@/db/apiClicks";
 import Error from "../Error";
 import LinkCard from "../LinkCard";

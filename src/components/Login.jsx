@@ -15,7 +15,7 @@ import * as Yup from "yup";
 import useFetch from "@/hooks/use-fetch";
 import { login } from "@/db/apiAuth";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { UrlState } from "@/Context";
+import { UrlState } from "../Context.jsx";
 
 const Login = () => {
   const [errors, setErrors] = useState([]);
